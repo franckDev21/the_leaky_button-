@@ -10,7 +10,7 @@ footer.addEventListener('mouseover',e => {
   form.querySelectorAll('input').forEach((input) => {
     if(input.value !== ''){
       scoreBool++
-    }
+    }  
   })
 
   if(e.target.classList.contains('form__btn')){
